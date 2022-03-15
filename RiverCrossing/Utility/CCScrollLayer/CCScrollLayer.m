@@ -167,7 +167,7 @@ enum
 	
 	if (self.showPagesIndicator)
 	{
-		int totalScreens = [layers_ count];
+		int totalScreens = (int)[layers_ count];
 		
 		// Prepare Points Array
 		CGFloat n = (CGFloat)totalScreens; //< Total points count in CGFloat.

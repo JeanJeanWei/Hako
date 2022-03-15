@@ -106,7 +106,7 @@
 
 - (id) objectAtIndex:(NSUInteger)index
 {
-	NSAssert2( index < data->num, @"index out of range in objectAtIndex(%d), index %i", data->num, index );
+	NSAssert2( index < data->num, @"index out of range in objectAtIndex(%ld), index %li", data->num, index );
 
 	return data->arr[index];
 }

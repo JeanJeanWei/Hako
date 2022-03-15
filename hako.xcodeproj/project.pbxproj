@@ -2583,6 +2583,16 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = RiverCrossing/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					"COCOS2D_DEBUG=1",
+					"GLES_SILENCE_DEPRECATION=1",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					DEBUG,
+					"COCOS2D_DEBUG=1",
+					"GLES_SILENCE_DEPRECATION=1",
+				);
 				HEADER_SEARCH_PATHS = "\"RiverCrossing/libs/kazmath/include\"";
 				INFOPLIST_FILE = RiverCrossing/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -2614,6 +2624,16 @@
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = RiverCrossing/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					"NS_BLOCK_ASSERTIONS=1",
+					"GLES_SILENCE_DEPRECATION=1",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					NDEBUG,
+					"NS_BLOCK_ASSERTIONS=1",
+					"GLES_SILENCE_DEPRECATION=1",
+				);
 				HEADER_SEARCH_PATHS = "\"RiverCrossing/libs/kazmath/include\"";
 				INFOPLIST_FILE = RiverCrossing/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
