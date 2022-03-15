@@ -4,7 +4,6 @@
 #import "MainMenuLayer.h"
 #import "ABGameKitHelper.h"
 
-#import "iAdHelper.h"
 #import "VisualEffect.h"
 
 
@@ -18,9 +17,7 @@
 -(id)init {
     self = [super init];
     if (self != nil) {
-        
-//        [AdMobHelper.instance setupadMob];
-//        [iAdHelper.instance setupiAd];
+
 
         [self displayMainMenu];
         [SoundManager.instance playBackgroundTrack:BACKGROUND_TRACK_MAIN_MENU];

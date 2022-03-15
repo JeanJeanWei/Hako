@@ -547,13 +547,13 @@
 -(void) startWithTarget:(id)aTarget
 {
 	[super startWithTarget:aTarget];
-	startAngle_ = [target_ rotation];
+	startAngle_ = [(CCNode*)target_ rotation];
 }
 
 -(void) update: (ccTime) t
 {
 	// XXX: shall I add % 360
-	[target_ setRotation: (startAngle_ +angle_ * t )];
+	[(CCNode*)target_ setRotation: (startAngle_ +angle_ * t )];
 }
 
 -(CCActionInterval*) reverse
