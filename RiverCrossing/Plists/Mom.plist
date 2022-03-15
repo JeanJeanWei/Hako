@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>breathingAnim</key>
+	<dict>
+		<key>animationFrames</key>
+		<string>1</string>
+		<key>delay</key>
+		<real>0.09</real>
+		<key>filenamePrefix</key>
+		<string>mom_idle_</string>
+		<key>restoreOriginalFrame</key>
+		<false/>
+	</dict>
+	<key>walkingAnim</key>
+	<dict>
+		<key>animationFrames</key>
+		<string>1</string>
+		<key>delay</key>
+		<real>0.08</real>
+		<key>filenamePrefix</key>
+		<string>mom_idle_</string>
+		<key>restoreOriginalFrame</key>
+		<false/>
+	</dict>
+	<key>preIdlingAnim</key>
+	<dict>
+		<key>animationFrames</key>
+		<string>1</string>
+		<key>delay</key>
+		<real>0.08</real>
+		<key>filenamePrefix</key>
+		<string>mom_idle_</string>
+		<key>restoreOriginalFrame</key>
+		<false/>
+	</dict>
+	<key>idlingAnim</key>
+	<dict>
+		<key>animationFrames</key>
+		<string>1</string>
+		<key>delay</key>
+		<real>0.08</real>
+		<key>filenamePrefix</key>
+		<string>mom_idle_</string>
+		<key>restoreOriginalFrame</key>
+		<false/>
+	</dict>
+	<key>crouchingAnim</key>
+	<dict>
+		<key>animationFrames</key>
+		<string>1</string>
+		<key>delay</key>
+		<real>0.08</real>
+		<key>filenamePrefix</key>
+		<string>mom_idle_</string>
+		<key>restoreOriginalFrame</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

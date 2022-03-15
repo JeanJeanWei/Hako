@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kGameLevel2</key>
+	<dict/>
+	<key>kNoSceneUninitialized</key>
+	<dict/>
+	<key>kMainMenuScene</key>
+	<dict>
+		<key>btnClick1</key>
+		<string>btnClick_1.wav</string>
+		<key>jump1</key>
+		<string>jump01.mp3</string>
+	</dict>
+	<key>kProfileScene</key>
+	<dict>
+		<key>btnClick1</key>
+		<string>btnClick_1.wav</string>
+	</dict>
+	<key>kOptionsScene</key>
+	<dict>
+		<key>btnClick1</key>
+		<string>btnClick_1.wav</string>
+	</dict>
+	<key>kCreditsScene</key>
+	<dict>
+		<key>btnClick1</key>
+		<string>btnClick_1.wav</string>
+	</dict>
+	<key>kIntroScene</key>
+	<dict>
+		<key>chainSound</key>
+		<string>op1.wav</string>
+	</dict>
+	<key>kLevelCompleteScene</key>
+	<dict>
+		<key>levelClear</key>
+		<string>level_clearF.wav</string>
+	</dict>
+	<key>kGameLevel1</key>
+	<dict>
+		<key>collision</key>
+		<string>collision.wav</string>
+	</dict>
+	<key>kAvatorListScene</key>
+	<dict>
+		<key>btnClick2</key>
+		<string>btnClick_2.wav</string>
+		<key>btnClick1</key>
+		<string>btnClick_1.wav</string>
+		<key>jump1</key>
+		<string>jump01.mp3</string>
+	</dict>
+	<key>kLevelListScene</key>
+	<dict>
+		<key>btnClick1</key>
+		<string>btnClick_1.wav</string>
+	</dict>
+	<key>kIntroScene0</key>
+	<dict/>
+	<key>kCutSceneForLevel2</key>
+	<dict/>
+</dict>
+</plist>
