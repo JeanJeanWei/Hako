@@ -66,9 +66,7 @@
 
         CCLabelTTF *lux = [CCLabelTTF labelWithString:@"Special Thanks: Luxuria" fontName:@"Marker Felt" fontSize:18];
         lux.color = color;
-		CCMenuItemLabel *luxLabel = [CCMenuItemLabel itemWithLabel:lux block:^(id sender) {
-            [self goToWebSite:kLinkLuxuria];
-        }];
+		
         CCLabelTTF *ren = [CCLabelTTF labelWithString:@"Special Thanks: Bastet tail (Music)" fontName:@"Marker Felt" fontSize:18];
         ren.color = color;
 		CCMenuItemLabel *renLabel = [CCMenuItemLabel itemWithLabel:ren block:^(id sender) {

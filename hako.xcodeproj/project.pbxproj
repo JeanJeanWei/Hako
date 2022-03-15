@@ -2645,7 +2645,11 @@
 				GCC_PREFIX_HEADER = "cocos2d-Library/cocos2d-Library-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
-					"$(inherited)",
+					"GLES_SILENCE_DEPRECATION=1",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"GLES_SILENCE_DEPRECATION=1",
+					"DEBUG=1",
 				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -2665,6 +2669,15 @@
 				DSTROOT = /tmp/cocos2d_Library.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cocos2d-Library/cocos2d-Library-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					"NS_BLOCK_ASSERTIONS=1",
+					"GLES_SILENCE_DEPRECATION=1",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					NDEBUG,
+					"NS_BLOCK_ASSERTIONS=1",
+				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				OTHER_LDFLAGS = "-ObjC";
