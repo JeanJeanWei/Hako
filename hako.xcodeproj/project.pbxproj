@@ -12,6 +12,8 @@
 		28AC647F27E12C2F0034033B /* icewhale_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28AC647327E12C2F0034033B /* icewhale_logo@3x.png */; };
 		28AC648027E12C2F0034033B /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28AC647427E12C2F0034033B /* Localization.strings */; };
 		28AC648127E12C2F0034033B /* icewhale_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 28AC647827E12C2F0034033B /* icewhale_logo.png */; };
+		28AC648D27E14FCB0034033B /* SimpleAudioEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AC648B27E14FCB0034033B /* SimpleAudioEngine.h */; };
+		28AC648E27E14FCB0034033B /* SimpleAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AC648C27E14FCB0034033B /* SimpleAudioEngine.m */; };
 		4F0943EA16D93E3A005D7625 /* UserPreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0943E716D93E3A005D7625 /* UserPreferenceController.m */; };
 		4F0943EB16D93E3A005D7625 /* UserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0943E916D93E3A005D7625 /* UserPreferences.m */; };
 		4F0943F016D94950005D7625 /* hako_gameplay1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F0943EC16D94950005D7625 /* hako_gameplay1.mp3 */; };
@@ -115,7 +117,6 @@
 		4FAB680516DBCD8600505E08 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAB680416DBCD8600505E08 /* MessageUI.framework */; };
 		4FAB680B16DBCEE000505E08 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAB680A16DBCEE000505E08 /* StoreKit.framework */; };
 		4FAB680D16DBCF2700505E08 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAB680C16DBCF2700505E08 /* AdSupport.framework */; };
-		4FAB684916DC697500505E08 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAB684816DC697500505E08 /* iAd.framework */; };
 		4FAB684C16DD02DD00505E08 /* AvatorListScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB684B16DD02DD00505E08 /* AvatorListScene.m */; };
 		4FAB684F16DD02FE00505E08 /* AvatorListLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB684E16DD02FE00505E08 /* AvatorListLayer.m */; };
 		4FAB685416DD052900505E08 /* avator-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FAB685016DD052900505E08 /* avator-hd.plist */; };
@@ -337,8 +338,6 @@
 		4FB2610B159E086C00E9EA63 /* CDOpenALSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB2601E159E086B00E9EA63 /* CDOpenALSupport.m */; };
 		4FB2610C159E086C00E9EA63 /* CocosDenshion.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB2601F159E086B00E9EA63 /* CocosDenshion.h */; };
 		4FB2610D159E086C00E9EA63 /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB26020159E086B00E9EA63 /* CocosDenshion.m */; };
-		4FB2610E159E086C00E9EA63 /* SimpleAudioEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB26021159E086B00E9EA63 /* SimpleAudioEngine.h */; };
-		4FB2610F159E086C00E9EA63 /* SimpleAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB26022159E086B00E9EA63 /* SimpleAudioEngine.m */; };
 		4FB26110159E086C00E9EA63 /* aabb.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB26026159E086B00E9EA63 /* aabb.h */; };
 		4FB26111159E086C00E9EA63 /* mat4stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB26028159E086B00E9EA63 /* mat4stack.h */; };
 		4FB26112159E086C00E9EA63 /* matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB26029159E086B00E9EA63 /* matrix.h */; };
@@ -445,6 +444,8 @@
 		28AC647527E12C2F0034033B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localization.strings; sourceTree = "<group>"; };
 		28AC647827E12C2F0034033B /* icewhale_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icewhale_logo.png; sourceTree = "<group>"; };
 		28AC648227E12F0F0034033B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28AC648B27E14FCB0034033B /* SimpleAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngine.h; sourceTree = "<group>"; };
+		28AC648C27E14FCB0034033B /* SimpleAudioEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleAudioEngine.m; sourceTree = "<group>"; };
 		4F0943E616D93E3A005D7625 /* UserPreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPreferenceController.h; sourceTree = "<group>"; };
 		4F0943E716D93E3A005D7625 /* UserPreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPreferenceController.m; sourceTree = "<group>"; };
 		4F0943E816D93E3A005D7625 /* UserPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPreferences.h; sourceTree = "<group>"; };
@@ -577,7 +578,6 @@
 		4FAB680416DBCD8600505E08 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		4FAB680A16DBCEE000505E08 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		4FAB680C16DBCF2700505E08 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		4FAB684816DC697500505E08 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		4FAB684A16DD02DD00505E08 /* AvatorListScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatorListScene.h; sourceTree = "<group>"; };
 		4FAB684B16DD02DD00505E08 /* AvatorListScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatorListScene.m; sourceTree = "<group>"; };
 		4FAB684D16DD02FD00505E08 /* AvatorListLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatorListLayer.h; sourceTree = "<group>"; };
@@ -806,8 +806,6 @@
 		4FB2601E159E086B00E9EA63 /* CDOpenALSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDOpenALSupport.m; sourceTree = "<group>"; };
 		4FB2601F159E086B00E9EA63 /* CocosDenshion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosDenshion.h; sourceTree = "<group>"; };
 		4FB26020159E086B00E9EA63 /* CocosDenshion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocosDenshion.m; sourceTree = "<group>"; };
-		4FB26021159E086B00E9EA63 /* SimpleAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngine.h; sourceTree = "<group>"; };
-		4FB26022159E086B00E9EA63 /* SimpleAudioEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleAudioEngine.m; sourceTree = "<group>"; };
 		4FB26026159E086B00E9EA63 /* aabb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aabb.h; sourceTree = "<group>"; };
 		4FB26028159E086B00E9EA63 /* mat4stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mat4stack.h; sourceTree = "<group>"; };
 		4FB26029159E086B00E9EA63 /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
@@ -952,7 +950,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FAB684916DC697500505E08 /* iAd.framework in Frameworks */,
 				4FAB680D16DBCF2700505E08 /* AdSupport.framework in Frameworks */,
 				4FAB680B16DBCEE000505E08 /* StoreKit.framework in Frameworks */,
 				4FAB680516DBCD8600505E08 /* MessageUI.framework in Frameworks */,
@@ -1255,13 +1252,6 @@
 			path = ABGameKitHelper;
 			sourceTree = "<group>";
 		};
-		4FAB67F316DBBB9E00505E08 /* SDKs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = SDKs;
-			sourceTree = "<group>";
-		};
 		4FAB685816DD07D500505E08 /* CCRadioMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -1279,7 +1269,6 @@
 				4F7DF8A616EBC7A200B183C3 /* Icon.png */,
 				4F29BE2E16E849D100EFF7A5 /* Default.png */,
 				4F29BE2C16E849CC00EFF7A5 /* Default@2x.png */,
-				4FAB684816DC697500505E08 /* iAd.framework */,
 				4FAB680C16DBCF2700505E08 /* AdSupport.framework */,
 				4FAB680A16DBCEE000505E08 /* StoreKit.framework */,
 				4FC1D7B216AB890600F2AFBE /* Default-568h@2x.png */,
@@ -1322,7 +1311,6 @@
 			children = (
 				4FB25F36159E070600E9EA63 /* Supporting Files */,
 				4FB2613F159E1CF400E9EA63 /* Constants */,
-				4FAB67F316DBBB9E00505E08 /* SDKs */,
 				4F0943E516D93E3A005D7625 /* UserPref */,
 				4FA156CA16CED33C0098F0EB /* Utility */,
 				4F24943316AE2AD30057786F /* Singletons */,
@@ -1674,6 +1662,8 @@
 		4FB26019159E086B00E9EA63 /* CocosDenshion */ = {
 			isa = PBXGroup;
 			children = (
+				28AC648B27E14FCB0034033B /* SimpleAudioEngine.h */,
+				28AC648C27E14FCB0034033B /* SimpleAudioEngine.m */,
 				4FB2601A159E086B00E9EA63 /* CDAudioManager.h */,
 				4FB2601B159E086B00E9EA63 /* CDAudioManager.m */,
 				4FB2601C159E086B00E9EA63 /* CDConfig.h */,
@@ -1681,8 +1671,6 @@
 				4FB2601E159E086B00E9EA63 /* CDOpenALSupport.m */,
 				4FB2601F159E086B00E9EA63 /* CocosDenshion.h */,
 				4FB26020159E086B00E9EA63 /* CocosDenshion.m */,
-				4FB26021159E086B00E9EA63 /* SimpleAudioEngine.h */,
-				4FB26022159E086B00E9EA63 /* SimpleAudioEngine.m */,
 			);
 			path = CocosDenshion;
 			sourceTree = "<group>";
@@ -1987,6 +1975,7 @@
 				4FB2609C159E086C00E9EA63 /* CCRenderTexture.h in Headers */,
 				4FB2609E159E086C00E9EA63 /* CCScene.h in Headers */,
 				4FB260A0159E086C00E9EA63 /* CCScheduler.h in Headers */,
+				28AC648D27E14FCB0034033B /* SimpleAudioEngine.h in Headers */,
 				4FB260A2159E086C00E9EA63 /* ccShader_Position_uColor_frag.h in Headers */,
 				4FB260A3159E086C00E9EA63 /* ccShader_Position_uColor_vert.h in Headers */,
 				4FB260A4159E086C00E9EA63 /* ccShader_PositionColor_frag.h in Headers */,
@@ -2052,7 +2041,6 @@
 				4FB26109159E086C00E9EA63 /* CDConfig.h in Headers */,
 				4FB2610A159E086C00E9EA63 /* CDOpenALSupport.h in Headers */,
 				4FB2610C159E086C00E9EA63 /* CocosDenshion.h in Headers */,
-				4FB2610E159E086C00E9EA63 /* SimpleAudioEngine.h in Headers */,
 				4FB26110159E086C00E9EA63 /* aabb.h in Headers */,
 				4FB26111159E086C00E9EA63 /* mat4stack.h in Headers */,
 				4FB26112159E086C00E9EA63 /* matrix.h in Headers */,
@@ -2420,6 +2408,7 @@
 				4FB260E3159E086C00E9EA63 /* CCTouchHandler.m in Sources */,
 				4FB260E5159E086C00E9EA63 /* CCDirectorMac.m in Sources */,
 				4FB260E7159E086C00E9EA63 /* CCEventDispatcher.m in Sources */,
+				28AC648E27E14FCB0034033B /* SimpleAudioEngine.m in Sources */,
 				4FB260E9159E086C00E9EA63 /* CCGLView.m in Sources */,
 				4FB260EB159E086C00E9EA63 /* CCWindow.m in Sources */,
 				4FB260EC159E086C00E9EA63 /* base64.c in Sources */,
@@ -2437,7 +2426,6 @@
 				4FB26108159E086C00E9EA63 /* CDAudioManager.m in Sources */,
 				4FB2610B159E086C00E9EA63 /* CDOpenALSupport.m in Sources */,
 				4FB2610D159E086C00E9EA63 /* CocosDenshion.m in Sources */,
-				4FB2610F159E086C00E9EA63 /* SimpleAudioEngine.m in Sources */,
 				4FB2611E159E086C00E9EA63 /* aabb.c in Sources */,
 				4FB2611F159E086C00E9EA63 /* mat4stack.c in Sources */,
 				4FB26120159E086C00E9EA63 /* matrix.c in Sources */,

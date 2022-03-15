@@ -214,7 +214,7 @@
              addEntriesFromDictionary:
              [plistDictionary objectForKey:sceneSoundDictionary]];
         }
-        CCLOG(@"Number of SFX filenames:%d",
+        CCLOG(@"Number of SFX filenames:%ld",
               [listOfSoundEffectFiles count]);
     }
     

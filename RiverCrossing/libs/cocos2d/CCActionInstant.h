@@ -160,18 +160,18 @@ typedef void (*CC_CALLBACK_ND)(id, SEL, id, void *);
  */
 @interface CCCallBlock : CCActionInstant<NSCopying>
 {
-	void (^block_)();
+	void (^block_)(void);
 }
 
 /** creates the action with the specified block, to be used as a callback.
  The block will be "copied".
  */
-+(id) actionWithBlock:(void(^)())block;
++(id) actionWithBlock:(void(^)(void))block;
 
 /** initialized the action with the specified block, to be used as a callback.
  The block will be "copied".
  */
--(id) initWithBlock:(void(^)())block;
+-(id) initWithBlock:(void(^)(void))block;
 
 /** executes the callback */
 -(void) execute;
