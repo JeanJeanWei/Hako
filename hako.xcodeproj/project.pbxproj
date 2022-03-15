@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28AC647D27E12C2F0034033B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AC647127E12C2F0034033B /* LaunchScreen.storyboard */; };
+		28AC647E27E12C2F0034033B /* icewhale_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28AC647227E12C2F0034033B /* icewhale_logo@2x.png */; };
+		28AC647F27E12C2F0034033B /* icewhale_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28AC647327E12C2F0034033B /* icewhale_logo@3x.png */; };
+		28AC648027E12C2F0034033B /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28AC647427E12C2F0034033B /* Localization.strings */; };
+		28AC648127E12C2F0034033B /* icewhale_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 28AC647827E12C2F0034033B /* icewhale_logo.png */; };
 		4F0943EA16D93E3A005D7625 /* UserPreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0943E716D93E3A005D7625 /* UserPreferenceController.m */; };
 		4F0943EB16D93E3A005D7625 /* UserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0943E916D93E3A005D7625 /* UserPreferences.m */; };
 		4F0943F016D94950005D7625 /* hako_gameplay1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F0943EC16D94950005D7625 /* hako_gameplay1.mp3 */; };
@@ -434,6 +439,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28AC647127E12C2F0034033B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28AC647227E12C2F0034033B /* icewhale_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icewhale_logo@2x.png"; sourceTree = "<group>"; };
+		28AC647327E12C2F0034033B /* icewhale_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icewhale_logo@3x.png"; sourceTree = "<group>"; };
+		28AC647527E12C2F0034033B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localization.strings; sourceTree = "<group>"; };
+		28AC647827E12C2F0034033B /* icewhale_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icewhale_logo.png; sourceTree = "<group>"; };
+		28AC648227E12F0F0034033B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F0943E616D93E3A005D7625 /* UserPreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPreferenceController.h; sourceTree = "<group>"; };
 		4F0943E716D93E3A005D7625 /* UserPreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPreferenceController.m; sourceTree = "<group>"; };
 		4F0943E816D93E3A005D7625 /* UserPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPreferences.h; sourceTree = "<group>"; };
@@ -590,7 +601,6 @@
 		4FB25DC8159E070300E9EA63 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = Resources/fps_images.png; sourceTree = "<group>"; };
 		4FB25DCA159E070300E9EA63 /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-hd.png"; path = "Resources/fps_images-hd.png"; sourceTree = "<group>"; };
 		4FB25DCC159E070300E9EA63 /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-ipadhd.png"; path = "Resources/fps_images-ipadhd.png"; sourceTree = "<group>"; };
-		4FB25DDA159E070300E9EA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		4FB25F37159E070600E9EA63 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		4FB25F38159E070600E9EA63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4FB25F3A159E070600E9EA63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -971,6 +981,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28AC646C27E12C2F0034033B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AC648227E12F0F0034033B /* Info.plist */,
+				28AC647127E12C2F0034033B /* LaunchScreen.storyboard */,
+				28AC647227E12C2F0034033B /* icewhale_logo@2x.png */,
+				28AC647327E12C2F0034033B /* icewhale_logo@3x.png */,
+				28AC647427E12C2F0034033B /* Localization.strings */,
+				28AC647827E12C2F0034033B /* icewhale_logo.png */,
+			);
+			name = Resources;
+			path = ../../Resources;
+			sourceTree = "<group>";
+		};
 		4F0943E516D93E3A005D7625 /* UserPref */ = {
 			isa = PBXGroup;
 			children = (
@@ -1296,6 +1320,7 @@
 		4FB25DC4159E070300E9EA63 /* RiverCrossing */ = {
 			isa = PBXGroup;
 			children = (
+				4FB25F36159E070600E9EA63 /* Supporting Files */,
 				4FB2613F159E1CF400E9EA63 /* Constants */,
 				4FAB67F316DBBB9E00505E08 /* SDKs */,
 				4F0943E516D93E3A005D7625 /* UserPref */,
@@ -1307,7 +1332,6 @@
 				4FB26130159E18C700E9EA63 /* Scences */,
 				4FB25F55159E086B00E9EA63 /* libs */,
 				4FB25DC5159E070300E9EA63 /* Resources */,
-				4FB25F36159E070600E9EA63 /* Supporting Files */,
 			);
 			path = RiverCrossing;
 			sourceTree = "<group>";
@@ -1372,7 +1396,6 @@
 				4FB25DC8159E070300E9EA63 /* fps_images.png */,
 				4FB25DCA159E070300E9EA63 /* fps_images-hd.png */,
 				4FB25DCC159E070300E9EA63 /* fps_images-ipadhd.png */,
-				4FB25DDA159E070300E9EA63 /* Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1380,6 +1403,7 @@
 		4FB25F36159E070600E9EA63 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28AC646C27E12C2F0034033B /* Resources */,
 				4F7DF8B216EBFF2F00B183C3 /* Strings */,
 				4FB25F37159E070600E9EA63 /* Prefix.pch */,
 				4FB25F38159E070600E9EA63 /* main.m */,
@@ -2107,6 +2131,8 @@
 				fr,
 				ja,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 4FB25DA3159E070300E9EA63;
 			productRefGroup = 4FB25DAF159E070300E9EA63 /* Products */;
@@ -2139,6 +2165,7 @@
 				4F5271FB18580BCE001F46A6 /* stageList_2-hd.png in Resources */,
 				4F5B194C16D2C864005A8948 /* Tile2x2.plist in Resources */,
 				4F5B194F16D2C87D005A8948 /* SoundEffects.plist in Resources */,
+				28AC647D27E12C2F0034033B /* LaunchScreen.storyboard in Resources */,
 				4F5271FC18580BCE001F46A6 /* stageList_2.plist in Resources */,
 				4FEF30FE16D3D5B7009ABBA7 /* door_1.png in Resources */,
 				4FEF30FF16D3D5B7009ABBA7 /* op2.jpg in Resources */,
@@ -2166,6 +2193,7 @@
 				4FAB685616DD052900505E08 /* avator.plist in Resources */,
 				4FAB685716DD052900505E08 /* avator.png in Resources */,
 				4FF0155216DEA20A0041873F /* background6.jpg in Resources */,
+				28AC647F27E12C2F0034033B /* icewhale_logo@3x.png in Resources */,
 				4F35473116DEFD4A006F76FA /* btn_sprite-hd.plist in Resources */,
 				4F35473216DEFD4A006F76FA /* btn_sprite-hd.png in Resources */,
 				4F35473316DEFD4A006F76FA /* btn_sprite.plist in Resources */,
@@ -2186,6 +2214,7 @@
 				4FDA0D0916E53399001C74C1 /* profile-hd.png in Resources */,
 				4FDA0D0A16E53399001C74C1 /* profile.plist in Resources */,
 				4FDA0D0B16E53399001C74C1 /* profile.png in Resources */,
+				28AC647E27E12C2F0034033B /* icewhale_logo@2x.png in Resources */,
 				4FDA0D1116E562EC001C74C1 /* op1-hd.plist in Resources */,
 				4FDA0D1216E562EC001C74C1 /* op1-hd.png in Resources */,
 				4FDA0D1916E59CC2001C74C1 /* lv_clear-hd.plist in Resources */,
@@ -2214,6 +2243,7 @@
 				4F7DF8AE16EBCA2000B183C3 /* main_menu-hd.plist in Resources */,
 				4F7DF8AF16EBCA2000B183C3 /* main_menu-hd.png in Resources */,
 				4F7DF8B016EBCA2000B183C3 /* main_menu.plist in Resources */,
+				28AC648027E12C2F0034033B /* Localization.strings in Resources */,
 				4F7DF8B116EBCA2000B183C3 /* main_menu.png in Resources */,
 				4F7DF8B616EBFF2F00B183C3 /* Localizable.strings in Resources */,
 				4F683C5A17A75790007CF535 /* Levels_1.plist in Resources */,
@@ -2223,6 +2253,7 @@
 				4F81758717B884B200FA5AAC /* Levels_5.plist in Resources */,
 				4F90E932185819B200C39F77 /* stageList_3-hd.plist in Resources */,
 				4F90E933185819B200C39F77 /* stageList_3-hd.png in Resources */,
+				28AC648127E12C2F0034033B /* icewhale_logo.png in Resources */,
 				4F90E934185819B200C39F77 /* stageList_3.plist in Resources */,
 				4F90E935185819B200C39F77 /* stageList_3.png in Resources */,
 				4F90E93A1859213000C39F77 /* stageList_5-hd.plist in Resources */,
@@ -2428,6 +2459,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		28AC647427E12C2F0034033B /* Localization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28AC647527E12C2F0034033B /* Base */,
+			);
+			name = Localization.strings;
+			sourceTree = "<group>";
+		};
 		4F7DF8B316EBFF2F00B183C3 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2535,7 +2574,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -2566,7 +2605,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -2597,7 +2636,7 @@
 		4FB25F52159E076500E9EA63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/cocos2d_Library.dst;
@@ -2620,7 +2659,7 @@
 		4FB25F53159E076500E9EA63 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/cocos2d_Library.dst;
