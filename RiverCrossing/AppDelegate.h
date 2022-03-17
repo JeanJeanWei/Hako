@@ -14,7 +14,7 @@
 	UIWindow *window_;
 	UINavigationController *navController_;
 
-	CCDirectorIOS	*__unsafe_unretained director_;							// weak ref
+	CCDirectorIOS	*__unsafe_unretained director_;			// weak ref
 }
 
 @property (nonatomic) UIWindow *window;

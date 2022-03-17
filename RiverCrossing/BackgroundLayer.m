@@ -34,7 +34,7 @@
         }
            
         
-        CGSize screenSize = [[CCDirector sharedDirector] winSize]; // 4
+        CGSize screenSize = [[CCDirectorIOS sharedDirector] winSize]; // 4
         [backgroundImage setPosition:
          CGPointMake(screenSize.width/2, screenSize.height/2)]; // 5
         [self addChild:backgroundImage z:0 tag:0]; // 6

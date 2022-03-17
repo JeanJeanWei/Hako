@@ -20,10 +20,10 @@
 #define SPEED_FAST 320.0f
 // Constants used to definde Gamp Play View Boundaries
 #define LEFTBOUND 10.0f
-#define RIGHTBOUND [[CCDirector sharedDirector] winSize].width - 10.0f
+#define RIGHTBOUND [[CCDirectorIOS sharedDirector] winSize].width - 10.0f
 //#define BUTTONBOUND  173.0f
-#define BUTTONBOUND  [[CCDirector sharedDirector] winSize].height - 20.0f - 375.0f
-#define UPBOUND [[CCDirector sharedDirector] winSize].height - 20.0f
+#define BUTTONBOUND [[CCDirectorIOS sharedDirector] winSize].height - 20.0f - 375.0f
+#define UPBOUND [[CCDirectorIOS sharedDirector] winSize].height - 20.0f
 
 
 // Constants used in Game Play

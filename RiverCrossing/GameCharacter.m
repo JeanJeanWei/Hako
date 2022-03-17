@@ -27,7 +27,7 @@
     CGPoint currentSpritePosition = self.position;
     
     if (currentSpritePosition.x > RIGHTBOUND - adjustedX) {
-        // NSLog(@"self.position.x = %f,RIGHTBOUND - adjustedX=%f, adjustedX=%f", self.position.x,RIGHTBOUND - adjustedX,adjustedX);
+         NSLog(@"self.position.x = %f,RIGHTBOUND - adjustedX=%f, adjustedX=%f", self.position.x,RIGHTBOUND - adjustedX,adjustedX);
         [self setPosition:ccp(RIGHTBOUND - adjustedX, currentSpritePosition.y)];
         shouldStop = YES;
     }

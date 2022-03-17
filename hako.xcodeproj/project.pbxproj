@@ -2583,8 +2583,9 @@
 				);
 				HEADER_SEARCH_PATHS = "\"RiverCrossing/libs/kazmath/include\"";
 				INFOPLIST_FILE = RiverCrossing/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 2.0.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
@@ -2624,8 +2625,9 @@
 				);
 				HEADER_SEARCH_PATHS = "\"RiverCrossing/libs/kazmath/include\"";
 				INFOPLIST_FILE = RiverCrossing/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 2.0.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",

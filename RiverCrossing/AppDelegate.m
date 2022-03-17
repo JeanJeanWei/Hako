@@ -50,7 +50,7 @@
 
 	director_ = (CCDirectorIOS*) [CCDirector sharedDirector];
 
-	director_.wantsFullScreenLayout = YES;
+	director_.viewRespectsSystemMinimumLayoutMargins = YES;
 
 	// Display FSP and SPF
 	[director_ setDisplayStats:NO];

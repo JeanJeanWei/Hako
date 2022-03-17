@@ -22,7 +22,7 @@
     if (self != nil)
     {
         CCLOG(@"GameObject init");
-        screenSize = [CCDirector sharedDirector].winSize;
+        screenSize = [CCDirectorIOS sharedDirector].winSize;
         
         isActive = TRUE;
         gameObjectType = kObjectTypeNone;

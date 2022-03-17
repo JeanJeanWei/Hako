@@ -89,7 +89,7 @@
 }
 -(void)displayAvatorMenu
 {
-    CGSize screenSize = [CCDirector sharedDirector].winSize;
+    CGSize screenSize = [CCDirectorIOS sharedDirector].winSize;
     //    if (sceneSelectMenu != nil) {
     //        [sceneSelectMenu removeFromParentAndCleanup:YES];
     //    }
